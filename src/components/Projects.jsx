@@ -12,7 +12,7 @@ const projects = [
   { 
     title: "Blog Platform", 
     tech: [], 
-    link: "/projects/blog_app",
+    link: "https://blog.faseeh.site",
     description: "A feature-rich blog platform that allows users to create, edit, and publish their articles.",
   },
   { 
