@@ -12,7 +12,7 @@ const projects = [
   { 
     title: "Blog Platform", 
     tech: [], 
-    link: "#",
+    link: "https://blog.faseeh.site",
     description: "A feature-rich blog platform that allows users to create, edit, and publish their articles.",
   },
   { 
@@ -31,7 +31,13 @@ export default function Projects() {
       {projects.map((p, i) => (
         <div key={i} className="group project-card">
           <div className="project-card-content">
-            <h3 className="project-card-title">{p.title}</h3>
+            <h3 className="project-card-title">
+              {p.link && p.link !== "#" ? (
+                <a href={p.link} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>{p.title}</a>
+              ) : (
+                p.title
+              )}
+            </h3>
             <p className="project-card-description">{p.description}</p>
             <div className="project-card-tech-stack">
               {p.tech.map((t, idx) => <span key={idx} className="project-card-tech-item">{t}</span>)}

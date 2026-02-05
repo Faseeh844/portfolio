@@ -23,7 +23,7 @@
 }
 
 .about-grid {
-  @apply grid md:grid-cols-2 gap-12;
+  @apply grid justify-center gap-12;
 }
 
 .about-grid-item-title {

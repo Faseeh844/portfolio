@@ -11,7 +11,7 @@ export default function About() {
             I am a passionate Full Stack Developer with a strong foundation in creating dynamic and responsive web applications. My journey in tech has been driven by a desire to solve complex problems and build beautiful, intuitive user interfaces. I am a quick learner, a team player, and I am always eager to take on new challenges.
           </p>
         </div>
-
+        
         <div className="about-grid">
           {/* Education */}
           <div>
@@ -23,7 +23,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* Certifications */}
+          {/* Certifications 
           <div>
             <h3 className="about-grid-item-title">Certifications</h3>
             <div className="about-grid-item-card">
@@ -31,7 +31,7 @@ export default function About() {
               <p className="about-grid-item-card-subtitle">LinkedIn Learning</p>
               <p className="about-grid-item-card-date">June 2024</p>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>
