@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  @apply py-8 text-center text-gray-500 bg-black text-sm border-t border-white/10;
+}
+
+.footer-social-links {
+  @apply flex justify-center space-x-6 mb-4;
+}
+
+.footer-social-link {
+  @apply text-gray-400 hover:text-white transition-colors;
+}

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+  @apply font-sans antialiased text-gray-900 bg-black min-h-screen;
+}
+
+.app-container {
+  @apply max-w-7xl mx-auto border-x border-white/10 bg-black shadow-2xl shadow-blue-900/20;
+}

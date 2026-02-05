@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-section {
+  @apply h-screen flex flex-col justify-center items-center bg-black text-white relative overflow-hidden;
+}
+
+.hero-background-grid {
+  @apply absolute inset-0 bg-grid-for-dark-bg bg-[bottom_1px_center] dark:bg-grid-for-light-bg dark:bg-bottom animate-pulse;
+}
+
+.hero-content {
+  @apply relative z-10 text-center max-w-4xl mx-auto px-6 flex flex-col items-center;
+}
+
+.hero-title {
+  @apply text-5xl md:text-7xl font-bold mb-8 tracking-tight;
+}
+
+.hero-title-name {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400;
+}
+
+.hero-description {
+  @apply text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed;
+}
+
+.hero-button {
+  @apply px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30;
+}

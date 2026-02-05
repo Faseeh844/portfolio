@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  @apply sticky top-0 z-50 border-b border-white/10 bg-black/50 backdrop-blur-lg;
+}
+
+.navbar-container {
+  @apply flex flex-wrap items-center justify-between p-6 max-w-7xl mx-auto;
+}
+
+.navbar-brand {
+  @apply text-2xl font-bold text-blue-500 tracking-tighter;
+}
+
+.navbar-links {
+  @apply space-x-8 text-sm font-medium;
+}
+
+.navbar-link {
+  @apply hover:text-blue-400 transition-colors text-gray-300;
+}

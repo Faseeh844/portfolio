@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contact-section {
+  @apply py-24 bg-black text-white text-center relative overflow-hidden border-b border-white/10;
+}
+
+.contact-background-blur {
+  @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-500/20 rounded-full blur-[100px] -z-10;
+}
+
+.contact-container {
+  @apply max-w-3xl mx-auto px-6;
+}
+
+.contact-title {
+  @apply text-4xl md:text-5xl font-bold mb-8;
+}
+
+.contact-description {
+  @apply text-xl text-gray-300 mb-10 leading-relaxed;
+}
+
+.contact-button {
+  @apply inline-block px-10 py-4 bg-gradient-to-r from-blue-500 to-teal-500 text-white font-bold text-lg rounded-full transition transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/20;
+}
+
+.contact-social-links {
+  @apply flex justify-center space-x-6 mt-12;
+}
+
+.contact-social-link {
+  @apply text-gray-400 hover:text-white transition-colors;
+}

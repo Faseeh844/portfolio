@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.about-section {
+  @apply py-20 px-6 bg-gray-900 text-white border-b border-white/10;
+}
+
+.about-container {
+  @apply max-w-4xl mx-auto;
+}
+
+.about-title {
+  @apply text-4xl font-bold text-center mb-16;
+}
+
+.about-description-container {
+  @apply text-center max-w-2xl mx-auto mb-16;
+}
+
+.about-description {
+  @apply text-lg text-gray-300 leading-relaxed;
+}
+
+.about-grid {
+  @apply grid md:grid-cols-2 gap-12;
+}
+
+.about-grid-item-title {
+  @apply text-2xl font-bold mb-6 text-blue-400 text-center;
+}
+
+.about-grid-item-card {
+  @apply bg-black/40 p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 transition-colors text-center h-full;
+}
+
+.about-grid-item-card-title {
+  @apply text-xl font-semibold;
+}
+
+.about-grid-item-card-subtitle {
+  @apply text-gray-400 mt-2;
+}
+
+.about-grid-item-card-date {
+  @apply text-sm text-gray-500 mt-1;
+}
